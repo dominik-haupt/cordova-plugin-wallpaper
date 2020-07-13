@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-wallpaper.wallpaper", function(require, exports, module) {
 function wallpaper() {}
 
 wallpaper.prototype.setImage = function(image, type, callback) {
@@ -121,5 +120,3 @@ wallpaper.install = function() {
 };
 
 cordova.addConstructor(wallpaper.install);
-
-});
